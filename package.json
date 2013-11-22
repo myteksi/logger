@@ -1,0 +1,22 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "description": "Super simple logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/* -R nyan -u bdd -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/myteksi/logger.git"
+  },
+  "author": "Fadrizul Hasani",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/myteksi/logger/issues"
+  },
+  "dependencies": {
+    "winston": ">= 0.0.0",
+    "should": ">= 0.0.0"
+  }
+}
